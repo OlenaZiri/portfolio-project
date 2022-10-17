@@ -32,6 +32,34 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+.logo {
+  max-height: 70px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15;
+}
+nav a {
+  text-decoration: none;
+  color: var(--background-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--background-color);
+  opacity: 60%;
+}
+nav a:active {
+  color: var(--branding-color);
+}
 .header {
   background-color: var(--background-color);
   text-align: center;
