@@ -13,10 +13,7 @@ body {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: white;
@@ -28,7 +25,7 @@ h2 {
   font-size: 64px;
   color: var(--background-color);
 }
-h4 {
+h3 {
   font-size: 48px;
   color: var(--background-color);
 }
@@ -51,7 +48,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15;
+  margin-left: 15px;
 }
 nav a {
   text-decoration: none;
@@ -68,7 +65,7 @@ nav a:active {
 .header {
   background-color: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .header p {
   font-size: 36px;
@@ -84,7 +81,7 @@ nav a:active {
   color: white;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
@@ -129,6 +126,16 @@ nav a:active {
 .project-desciption {
   padding: 120px 60px;
 }
+.project-img {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+  min-height: 500px;
+}
+.portfolio-img {
+  border-radius: 10px;
+  max-width: 400px;
+}
 footer {
   margin: 60px 0;
 }
@@ -151,8 +158,10 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  padding: 10px;
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
   font-size: 18px;
+  border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
 footer .social-links a:hover {
@@ -166,11 +175,8 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-  .header {
-    padding: 80px 20px;
   }
   .project-desciption {
     padding: 0;
